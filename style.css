@@ -20,7 +20,7 @@ ul{
 
 a{
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 body{
@@ -72,18 +72,18 @@ nav .moon{
 /*------------------------------------------------------------------*/
 header{
   height: 100vh;
-  padding-top: 80px;
+
 }
 /*-----------------------*/
 header .centre{
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: 10% 30% 30%;
+  grid-template-columns: 5% 45% 30%;
   align-items: center;
   gap: 1rem;
   padding-left: 70px;
-  padding-right: 70px;
+  padding-right: 0px;
 }
 /*-----------------------*/
 header .centre .puces,
@@ -93,12 +93,35 @@ header .centre .carte{
   font-size: 20px;
 }
 /*----------------------*/
-.puces{
+header .centre .puces{
+  font-size: 40px;
+}
+header .centre .carte{
 
 }
-.carte{
-
+header .centre .image{
+  
 }
 header .centre img{
-  border-radius: 20px;
+  height: 100vh;
+  object-fit: fill;/*pour faire remplir l'image dans sa taille*/
+}
+/*----------------0*/
+header .centre .carte p{
+  padding: 10px;
+}
+header .centre .carte .introduction{
+  font-size: 20px;
+}
+header .centre .carte .nom{
+  font-size: 60px;
+  font-weight: bold;
+}
+header .centre .carte button{
+  height: 50px;
+  width: 150px;
+  color: white;
+  background-color: #033a80;
+  outline: none;
+  border: none;
 }
