@@ -12,12 +12,14 @@
     <!-- ************************************************* -->
     <nav>
         <h1><span>Az</span>. Portfolio </h1>
+
+
         <ul>
             <li>
-                <a href="#centre">Presentation</a>
+                <a href="#home">Presentation</a>
             </li>
             <li>
-                <a href="#">A propos</a>
+                <a href="#about">A propos</a>
             </li>
             <li>
                 <a href="#">Qualites</a>
@@ -31,13 +33,14 @@
                 <i class="bx bx-moon"></i> <!-- puce li pour qu'il soit tout pres des autres li -->
             </li>
         </ul>
+
     </nav><!-- tout ceux qui sont proche doivent etre dans une meme boite -->
    
 
     <!-- ***************************************************** -->
-    <header>
+    <header id="home">
 
-        <div class="centre" id="home"><!-- identifiant pour scroller vers lui -->
+        <div class="centre" ><!-- identifiant pour scroller vers lui -->
             <div class="puces">
                 <i class="bx bxl-github"></i>
                 <i class="bx bxl-facebook"></i>
@@ -57,7 +60,7 @@
                     Si vous voulez en savoir plus, telecharger mon cv ci-dessous
                 </p>
                 <p class="bouton">
-                    <button><a href="#">Telecharger CV</a></button>
+                    <button><a>Telecharger Mon CV</a></button>
                 </p>
             </div>
             <div class="image">
@@ -68,18 +71,39 @@
     </header>
     <!-- ******************************************************** -->
 
-    <!-- <section class="about">
-        <div class="introduction">
-            <p class="titre1">A propos de Moi</p>
+    <section class="about" id="about">
+        <div class="heading">
+            <p class="titre1">A propos de moi</p>
             <p class="titre2">Introduction</p>
         </div>
 
-        <div class="page">
-            <img src="main.jpg" alt="">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="main.jpg" alt="">
+            </div>
 
-            div.
+            <div class="about-text">
+                <p>Je m'appelle Saibou Azim. Ma passion est le developpement informatique. J'aime le Javascript, le Php et le Python...<br/> Faire du developpement informatique, c'est comme cuisiner un bon repas.</p>
+
+                <div class="information">
+                    <div class="info-box">
+                        <i class="bx bx-user"></i>
+                        <span>SAIBOU Azim</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="bx bx-phone"></i>
+                        <span>+212 762 91 29 31</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="bx bxs-envelope"></i>
+                        <span>saibouazim90@gmail.com</span>
+                    </div>
+                </div>
+
+                <a class="btn">Telecharger mon CV</a>
+            </div>
         </div>
-    </section> -->
+    </section>
 
 
 

@@ -12,6 +12,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 ul{
@@ -124,4 +125,58 @@ header .centre .carte button{
   background-color: #033a80;
   outline: none;
   border: none;
+}
+
+/********************************************************************************************************/
+
+.about{
+  padding: 100px 10%;
+}
+
+.heading{
+  text-align: center;
+}
+.heading .titre1{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.heading .titre2{
+  color: green;
+  font-size: 2rem;
+}
+
+.about-container{
+  display: flex;
+  padding: 50px 50px;
+}
+
+.about-img{
+
+}
+
+.about-text{
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+.about-text + p{
+
+}
+
+.information{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.info-box{
+
+}
+.info-box span{
+  padding-left: 
+}
+
+.btn{
+  padding: 20px 20px;
+  background-color: #033a80;
+  color: white;
+  font-size: 12px;
 }
