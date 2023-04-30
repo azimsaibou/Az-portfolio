@@ -31,6 +31,7 @@ body{
 
 /*---------------------------------*/
 nav{
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -180,3 +181,96 @@ header .centre .carte button{
   color: white;
   font-size: 12px;
 }
+
+
+/*******************************************************************************************************/
+.qualites{
+  padding: 0px 100px;
+}
+
+.qualites-container{
+  display: flex;
+  justify-content: center; 
+}
+
+.barres{
+margin-right: 20%;
+padding-top: 5rem;
+}
+.barre{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 4rem;
+  width: 300px;     
+}
+.barre span{
+
+}
+.barre .empty-bar{
+  width: 200px;
+  position: absolute;
+  background-color: #333;
+  height: 10px;
+  border-radius: 20px;
+  bottom: 0;
+  border-right: 20px;
+}
+.barre .colored-bar{
+  position: absolute;
+  width: 100%;
+  background-color: #033a80;
+  height: 10px;
+  bottom: 0;
+  border-radius: 20px;
+}
+
+/***************************************************************************/
+.services{
+  padding-top: 100px;
+}
+.services-container{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.services-box{
+  width: 15rem;
+  height: 12rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  border-bottom: 3px solid #0f0c27;
+}
+.services-box i{
+  font-size: 3.5rem;
+  margin: 10;
+}
+.services-box p{
+  font-size: 1.2rem;
+  margin: 10px;
+}
+.services-box span{
+}
+.services-box:hover{
+  background-color: #0f0c27;
+  color: white;
+}
+.services-box:hover i{
+  color: green;
+}
+.services-box:hover p{
+
+} 
+.services-box:hover span{
+  color: #333;
+}
+
+
+/**/
