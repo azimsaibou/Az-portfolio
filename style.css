@@ -52,6 +52,7 @@ nav ul{
   text-align: center;
   margin-right: 100px;
   font-size: 15px;
+  font-size: 20px;
 }
 /*---------------------------------*/
 nav h1 span{
@@ -69,9 +70,10 @@ nav .moon{
   text-align: center;
   margin-right: 0;
   margin-left: 0px;
+  cursor: pointer;
 }
 
-/*------------------------------------------------------------------*/
+/*----------------------------- Partie sur Header -------------------------------------*/
 header{
   height: 100vh;
 
@@ -126,9 +128,10 @@ header .centre .carte button{
   background-color: #033a80;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 
-/********************************************************************************************************/
+/*********************************** Partie sur A propos *************************************************/
 
 .about{
   padding: 100px 10%;
@@ -183,7 +186,7 @@ header .centre .carte button{
 }
 
 
-/*******************************************************************************************************/
+/***************************** Partie sur Qualites ********************************************/
 .qualites{
   padding: 0px 100px;
 }
@@ -325,4 +328,45 @@ padding-top: 5rem;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+}
+
+
+/*************************** Partie sur Footer **************************************/
+footer{
+  padding: 100px 0;
+  text-align: center;
+}
+
+footer h2{
+
+}
+
+.footer-social{
+  margin: 20px 0;
+  font-size: 30px;
+}
+.footer-social i{
+  padding: 30px;
+}
+
+/*************************** Partie sur le copyright ************************************/
+.copyright{
+  height: 200px;
+  background-color: #033a80;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/************************* class Active sur body ********************************** */
+body.active{
+  background-color: black;
+  color: white;
+}
+nav.active{
+  background-color: black;
+  color: white;
 }
